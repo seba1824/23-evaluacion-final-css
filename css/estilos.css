@@ -2,6 +2,7 @@ body{
 	background: #02010a;
 	font-family:dancing script;
 	
+	
 }
 header{
 	background-color:#5b7989;
@@ -36,4 +37,23 @@ nav a{
 }
 #a1{
 	text-decoration:none;
+}
+
+footer{
+	width:100%;
+	border-radius:0px 0px 10px 10px;
+	background-color:#C6d5c5;
+	display:flex;
+	position:fixed;
+	bottom:0px;
+}
+.pie{
+	width:25%;
+	text-align:center;
+}
+h2{
+	margin-bottom:0;
+}
+a img{
+	width:5%;
 }
