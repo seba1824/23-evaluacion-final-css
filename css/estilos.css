@@ -1,9 +1,21 @@
 body{
 	background: #02010a;
 	font-family:dancing script;
-	
+	animation: animacion1 1.5s;
 	
 }
+@-webkit-keyframes animacion1{
+	0%{
+		margin-top:150%;
+	}
+	60%{
+		margin-top:-5%;
+	}
+	100%{
+		margin-top:0%;
+	}
+}
+
 header{
 	background-color:#5b7989;
 	border-radius:10px 10px 0px 0px;
@@ -43,8 +55,9 @@ footer{
 	border-radius:0px 0px 10px 10px;
 	background-color:#C6d5c5;
 	
-	position:fixed;
+	position:relative;
 	bottom:0px;
+	
 }
 .pie{
 	
