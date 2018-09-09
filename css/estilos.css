@@ -28,7 +28,7 @@ h1{
 	text-align:center;
 	margin-top:2.5%;
 	margin-bottom:0;
-	
+	padding-left:2%;
 	text-shadow:2px 2px #02010a;
 	
 }
@@ -88,7 +88,7 @@ a img{
 		float:right;
 	}
 	footer{
-		width:900px;
+		
 		display:flex;
 		
 	}
