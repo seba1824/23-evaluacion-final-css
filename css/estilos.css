@@ -137,3 +137,41 @@ h2{
 	border:2px solid black;
 	box-shadow:3px 3px #82c3a6;
 }
+#principal{
+	background-color:#d5c75f;
+	width:100%;
+}
+.di{
+	width:100%;
+}
+.simg{
+	width:50%;
+	margin-bottom:2%;
+	margin-top:2%;
+	margin-left:24%;
+	margin-right:24%;
+	box-shadow:2px 2px #02010a;
+}
+@media (min-width : 900px){
+	#principal{
+		display:flex;
+		flex-flow:row wrap;
+	}
+	.di{
+		width:33.3%;
+	}
+	.simg{
+		width:90%;
+		margin-right:4%;
+		margin-left:4%;
+	}
+}
+#i1{
+	-webkit-filter:blur(10px);
+}
+#i2,#i4,#i6{
+	-webkit-filter:grayscale(100%);
+}
+#i3{
+	-webkit-filter:sepia(90%);
+}
