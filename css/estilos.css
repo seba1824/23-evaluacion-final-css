@@ -1,8 +1,7 @@
 body{
 	background: #02010a;
 	font-family:dancing script;
-	animation: animacion1 1.5s;
-	
+	animation: animacion1 1.5s;	
 }
 @-webkit-keyframes animacion1{
 	0%{
@@ -15,14 +14,11 @@ body{
 		margin-top:0%;
 	}
 }
-
 header{
 	background-color:#5b7989;
 	border-radius:10px 10px 0px 0px;
 	color:white;
 	height:20%;
-	
-	
 }
 h1{
 	text-align:center;
@@ -30,46 +26,62 @@ h1{
 	margin-bottom:0;
 	padding-left:2%;
 	text-shadow:2px 2px #02010a;
-	
 }
 nav{
 	text-align:center;
 	height:10%;
-	
-	
 }
 nav a{
 	font-size:1.5em;
 	color: white;
 	margin:10%;
 	margin-left:5%;
-	margin-right:5%;
-	
+	margin-right:5%;	
 }
 #a1{
 	text-decoration:none;
 }
-
 footer{
-	width:100%;
 	border-radius:0px 0px 10px 10px;
 	background-color:#C6d5c5;
-	
-	position:relative;
-	bottom:0px;
-	
 }
 .pie{
-	
 	text-align:center;
+	flex-direction:column;
 }
 h2{
 	margin-bottom:0;
 }
-a img{
+.logo{
 	width:5%;
 }
-@media (min-width: 900px){
+.imsec{
+	box-shadow:2px 2px  #02010a;
+}
+#contenido{
+	background-color:#82c3a6;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#imagen-central{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	box-shadow:2px 2px  #02010a;
+}
+#contenido1{
+	width:;
+	background-color: #d5c75f;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#contenido1 a img{
+	width:50%;
+}
+.dimg{
+	text-align:center;
+}
+@media (min-width : 900px){
 	body{
 		width:900px;
 		margin-left:auto;
@@ -88,11 +100,40 @@ a img{
 		float:right;
 	}
 	footer{
-		
 		display:flex;
-		
 	}
 	.pie{
 		width:25%;
 	}
+	#contenido1{
+		width:100%;
+		display:flex;
+		flex-flow:row wrap;
+	}
+	.dimg{
+		width:50%;
+	}
+	.dimg a img{
+		width:80%;
+	}
+}
+#leon{
+	transition-property:border,transform,box-shadow;
+	transition-duration:1s;
+	border:1px solid black;
+}
+#leon:hover{
+	transform:rotate(10deg);
+	border:2px solid black;
+	box-shadow:3px 3px #82c3a6;
+}
+#perro{
+	transition-property:border,transform,box-shadow;
+	transition-duration:1s;
+	border:1px solid black;
+}
+#perro:hover{
+	transform:translate(20px,-5px);
+	border:2px solid black;
+	box-shadow:3px 3px #82c3a6;
 }
